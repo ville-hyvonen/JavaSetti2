@@ -1,2 +1,5 @@
-package org.example.Teht18;public enum FILES {
+package org.example.Teht18;
+
+public enum FILES {
+    TEXT, AUDIO
 }

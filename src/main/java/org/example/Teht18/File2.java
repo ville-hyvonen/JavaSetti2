@@ -1,10 +1,10 @@
 package org.example.Teht18;
 
-abstract class File {
+public abstract class File2 {
     private final String path;
     private final FILES type;
 
-    File(String path, FILES type) {
+    File2(String path, FILES type) {
         this.path = path;
         this.type = type;
     }
@@ -17,6 +17,6 @@ abstract class File {
         return type;
     }
 
-    abstract void open();
-    abstract void close();
+    public abstract void open();
+    public abstract void close();
 }
